@@ -17,6 +17,7 @@ public class Picture
     private Circle sun;
     private boolean drawn;
     private Circle sun2;
+    private Person person;
 
     /**
      * Constructor for objects of class Picture
@@ -28,6 +29,7 @@ public class Picture
         roof = new Triangle();  
         sun = new Circle();
         sun2 = new Circle();
+        person = new Person();
         drawn = false;
     }
 
@@ -64,6 +66,13 @@ public class Picture
             sun2.changeSize(80);
             sun2.makeVisible();
             sun2.slowMoveVertical(40);
+            
+            person.moveHorizontal(-140);
+            person.moveVertical(20);
+            person.makeVisible();
+            person.slowMoveHorizontal(40);
+        
+            
             drawn = true;
         }
     }
