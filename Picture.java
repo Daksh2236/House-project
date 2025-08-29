@@ -61,11 +61,11 @@ public class Picture
             sun.changeSize(80);
             sun.makeVisible();
             sun2.changeColor("blue");
-            sun2.moveHorizontal(-100);
-            sun2.moveVertical(-40);
+            sun2.moveHorizontal(-170);
+            sun2.moveVertical(-100);
             sun2.changeSize(80);
             sun2.makeVisible();
-            sun2.slowMoveVertical(40);
+            sun2.slowMoveVertical(100);
             
             person.moveHorizontal(-140);
             person.moveVertical(20);
