@@ -63,6 +63,7 @@ public class Picture
             sun2.moveVertical(-40);
             sun2.changeSize(80);
             sun2.makeVisible();
+            sun2.slowMoveVertical(40);
             drawn = true;
         }
     }
@@ -88,4 +89,15 @@ public class Picture
         roof.changeColor("green");
         sun.changeColor("yellow");
     }
+    public void sunSet()
+    {
+      sun2.slowMoveVertical(40);  
+        
+    }
+    
+    
+
+    
+    
+
 }
